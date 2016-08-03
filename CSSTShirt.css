@@ -312,17 +312,17 @@ button:hover ul li {
   border-bottom: 2px solid lightblue; }
 
 .OrangeSquare {
-  color: orange;
+  color: #e5b178;
   padding: 2px;
   border-bottom: 2px solid lightblue; }
 
 .PinkSquare {
-  color: lightpink;
+  color: #e577aa;
   padding: 2px;
   border-bottom: 2px solid lightblue; }
 
 .GreenSquare {
-  color: lightgreen;
+  color: #7abe93;
   padding: 2px; }
 
 .BlueSquare:hover {
