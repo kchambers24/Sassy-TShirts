@@ -1,90 +1,98 @@
-$border-lightblue: lightblue;
-
+$main-color: lightblue;
+$icon-background: white;
+$heading-text-color: #6699ff;
+$h3-color: #106db3;
 
 body {
 }
 h1 {
-  color: lightblue;
+  color: $main-color;
 }
 #containerMain {
   width: 1200px;
-  border: 1px solid black;
 }
 .ShirtBox1 {
   display: inline-block;
-  border-top: 2px solid lightblue;
-  border-left: 2px solid lightblue;
-  border-right: 2px solid lightblue;
+  border-top: 2px solid $main-color;
+  border-left: 2px solid $main-color;
+  border-right: 2px solid $main-color;
   margin-right: 1rem;
   margin-bottom: 1rem;
 }
-
+.blueShirt {
+  padding-bottom: 10px;
+}
  .arrow1 {
-  border: 2px solid #ADD8E6;
+  border: 2px solid $main-color;
   display: inline-block;
   flex-grow: 1;
   text-align: center;
-  color: #ADD8E6;
+  color: $main-color;
+  width: 73px;
+  height: 55px;
 }
 .arrow1:hover {
-  background-color: #ADD8E6;
-  color: white;
+  background-color: $main-color;
+  color: $icon-background;
 }
  .heart1 {
-   border: 2px solid #ADD8E6;
+   border: 2px solid $main-color;
    display: inline-block;
    flex-grow: 1;
    text-align: center;
-   color: #ADD8E6;
+   color: $main-color;
+   width: 72px;
+   height: 55px;
  }
  .heart1:hover {
-   background-color: #ADD8E6;
-   color: white;
+   background-color: $main-color;
+   color: $icon-background;
  }
   .XL1 {
     width: 35px;
-    border: 2px solid #ADD8E6;
+    border: 2px solid $main-color;
     display: inline-block;
     flex-grow: 1;
     text-align: center;
-    color: #ADD8E6;
+    color: $main-color;
+    width: 73px;
+    height: 55px;
   }
   .XL1:hover {
-    background-color: #ADD8E6;
-    color: white;
+    background-color: $main-color;
+    color: $icon-background;
   }
   .BlueBox1 {
     width: 35px;
-    border: 2px solid #ADD8E6;
+    border: 2px solid $main-color;
     display: inline-block;
     flex-grow: 1;
     text-align: center;
-    color: #ADD8E6;
+    color: $main-color;
+    width: 72px;
+    height: 55px;
   }
   .BlueBox1:hover {
-    background-color: #ADD8E6;
-    color: white;
+    background-color: $main-color;
+    color: $icon-background;
   }
   .Cart1 {
-    border: 2px solid #ADD8E6;
-    display: inline-block;
+    border: 2px solid $main-color;
     flex-grow: 1;
     text-align: center;
-    color: #ADD8E6;
+    color: $main-color;
     padding: 10px;
+    width: 73px;
+    height: 55px;
+
   }
   .Cart1:hover {
-    background-color: #ADD8E6;
-    color: white;
+    background-color: $main-color;
+    color: $icon-background;
   }
-  .Money1 {
-    display: inline-block;
-    display: flex;
-    flex-grow: 1;
-    color: #ADD8E6;
-  }
+
   strong {
-    color: #6699ff;
+    color: $heading-text-color;
   }
   p.Cost1 {
     position: relative;
@@ -100,78 +108,72 @@ h1 {
 }
 .ShirtBox2 {
   display: inline-block;
-  border-top: 2px solid lightblue;
-  border-left: 2px solid lightblue;
-  border-right: 2px solid lightblue;
+  border-top: 2px solid $main-color;
+  border-left: 2px solid $main-color;
+  border-right: 2px solid $main-color;
   margin-right: 1rem;
   margin-bottom: 1rem;
 }
  .arrow2 {
-  border: 2px solid #ADD8E6;
+  border: 2px solid $main-color;
   display: inline-block;
   flex-grow: 1;
   text-align: center;
-  color: #ADD8E6;
+  color: $main-color;
 }
 .arrow2:hover {
-  background-color: #ADD8E6;
-  color: white;
+  background-color: $main-color;
+  color: $icon-background;
 }
  .heart2 {
-   border: 2px solid #ADD8E6;
+   border: 2px solid $main-color;
    display: inline-block;
    flex-grow: 1;
    text-align: center;
-   color: #ADD8E6;
+   color: $main-color;
  }
  .heart2:hover {
-   background-color: #ADD8E6;
-   color: white;
+   background-color: $main-color;
+   color: $icon-background;
  }
   .XL2 {
     width: 35px;
-    border: 2px solid #ADD8E6;
+    border: 2px solid $main-color;
     display: inline-block;
     flex-grow: 1;
     text-align: center;
-    color: #ADD8E6;
+    color: $main-color;
   }
   .XL2:hover {
-    background-color: #ADD8E6;
-    color: white;
+    background-color: $main-color;
+    color: $icon-background;
   }
   .BlueBox2 {
     width: 35px;
-    border: 2px solid #ADD8E6;
+    border: 2px solid $main-color;
     display: inline-block;
     flex-grow: 1;
     text-align: center;
-    color: #ff80bf;
+    color: $main-color;
   }
   .BlueBox2:hover {
-    background-color: #ADD8E6;
+    background-color: $main-color;
     color: #ff80bf;
   }
   .Cart2 {
-    border: 2px solid #ADD8E6;
+    border: 2px solid $main-color;
     display: inline-block;
     flex-grow: 1;
     text-align: center;
-    color: #ADD8E6;
+    color: $main-color;
     padding: 10px;
   }
   .Cart2:hover {
-    background-color: #ADD8E6;
-    color: white;
-  }
-  .Money2 {
-    display: inline-block;
-    display: flex;
-    flex-grow: 1;
-    color: #ADD8E6;
+    background-color: $main-color;
+    color: $icon-background;
   }
   strong {
-    color: #6666ff;
+    color: $heading-text-color;
   }
   p.Cost2 {
     position: relative;
@@ -188,86 +190,87 @@ h1 {
 .ShirtBox3 {
   display: inline-block;
   position: relative;
-  border-top: 2px solid lightblue;
-  border-left: 2px solid lightblue;
-  border-right: 2px solid lightblue;
+  border-top: 2px solid $main-color;
+  border-left: 2px solid $main-color;
+  border-right: 2px solid $main-color;
   margin-right: 1rem;
   margin-bottom: 1rem;
 }
  .arrow3 {
-  border: 2px solid #ADD8E6;
+  border: 2px solid $main-color;
   display: inline-block;
   flex-grow: 1;
   text-align: center;
-  color: #ADD8E6;
+  color: $main-color;
 }
 .arrow3:hover {
-  background-color: #ADD8E6;
-  color: white;
+  background-color: $main-color;
+  color: $icon-background;
 }
  .heart3 {
-   border: 2px solid #ADD8E6;
+   border: 2px solid $main-color;
    display: inline-block;
    flex-grow: 1;
    text-align: center;
-   color: #ADD8E6;
+   color: $main-color;
  }
  .heart3:hover {
-   background-color: #ADD8E6;
-   color: white
+   background-color: $main-color;
+   color: $icon-background
  }
   .XL3 {
     width: 35px;
-    border: 2px solid #ADD8E6;
+    border: 2px solid $main-color;
     display: inline-block;
     flex-grow: 1;
     text-align: center;
-    color: #ADD8E6;
-    font-size; 20;
+    color: $main-color;
+    font-size: 20;
   }
   .XL3:hover {
-    background-color: #ADD8E6;
-    color: white;
+    background-color: $main-color;
+    color: $icon-background;
   }
   .BlueBox3 {
     width: 35px;
-    border: 2px solid #ADD8E6;
+    border: 2px solid $main-color;
     display: inline-block;
     flex-grow: 1;
     text-align: center;
-    color: #ffaa80;
+    color: $main-color;
   }
   .BlueBox3:hover {
     color: #ffaa80;
-    background-color: #ADD8E6
+    background-color: $main-color
   }
 .ColorBox1 {
   opacity: 0;
 }
 button:hover .ColorBox1{
   opacity: 1;
-  ;
+}
+.ColorBox1:hover {
+  transition: transform 1s;
+  transform: scale(1.1);
+}
+.TSizes:hover {
+  transition: transform 1s;
+  transform: scale(1.1);
 }
   .Cart3 {
-    border: 2px solid #ADD8E6;
+    border: 2px solid $main-color;
     display: inline-block;
     flex-grow: 1;
     text-align: center;
-    color: #ADD8E6;
+    color: $main-color;
     padding: 10px;
   }
   .Cart3:hover {
-    background-color: #ADD8E6;
-    color: white;
-  }
-  .Money3 {
-    display: inline-block;
-    display: flex;
-    flex-grow: 1;
-    color: #ADD8E6;
+    background-color: $main-color;
+    color: $icon-background;
   }
   strong {
-    color: #6666ff;
+    color: $heading-text-color;
   }
   p.Cost3 {
     position: relative;
@@ -282,16 +285,13 @@ button:hover .ColorBox1{
   position: relative;
 }
 button {
-  background-color: white;
+  background-color: $icon-background;
   cursor: pointer;
   outline: none;
 }
 button:active ul li {
   box-shadow: none;
-  transform translateY(5px);
-}
-button:active .arrow_boxT {
-  transform: translateY(17px);
+  transform: translateY(5px);
 }
 ul {
   list-style-type: none;
@@ -303,131 +303,65 @@ ul li {
 }
 button:hover ul li{
   opacity: 1;
-  background-color: white;
-  border-radius 5px;
-}
-.Logo1{
-  border: none;
+  background-color: $icon-background;
+  border-radius: 5px;
 }
 .ColorBox1 {
   width: 44px;
-  border: 2px solid lightblue;
-  display: flex;
-  position: relative;
-  left 3px;
-  background-color: white;
+  border: 2px solid $main-color;
+  background-color: $icon-background;
   opacity: 0;
-}
-.ColumnLeft1 {
-
+  position: relative;
+  bottom: 130px; left: 4px;
 }
 .BlueSquare {
-  color: lightblue;
+  color: $main-color;
   padding: 2px;
+  border-bottom: 2px solid $main-color;
 }
 .OrangeSquare {
   color: orange;
   padding: 2px;
-}
-.ColumnRight1 {
-
+  border-bottom: 2px solid $main-color;
 }
 .PinkSquare {
   color: lightpink;
   padding: 2px;
+  border-bottom: 2px solid $main-color;
 }
 .GreenSquare {
   color: lightgreen;
   padding: 2px;
 }
+.BlueSquare:hover {
+    transition: transform 1s;
+    transform: scale(1.1);
+}
 buttonactive ColorBox1 {
   transform: translateY(1px);
 }
-button:active .arrow_box {
-  transform: translateY(17px);
-}
-.arrow_box {
-  width: 48px;
-  height: 50px;
-	position: relative;
-  bottom: 92px;
-  left: 2px;
-	background color: #ffffff;
-	border: 2px solid #c2e1f5;
-  opacity: 0;
-}
-.arrow_box:after, .arrow_box:before {
-	top: 100%;
-	left: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-}
-.arrow_box:after {
-	border-color: rgba(255, 255, 255, 0);
-	border-top-color: #ffffff;
-	border-width: 10px;
-	margin-left: -10px;
-}
-.arrow_box:before {
-	border-color: rgba(194, 225, 245, 0);
-	border-top-color: #c2e1f5;
-	border-width: 16px;
-	margin-left: -16px;
-}
-button:hover .arrow_box {
+button:hover .TSizes {
   opacity: 1;
 }
-.arrow_boxT {
-  width: 48px;
-  height: 100px;
-  position: relative;
-  bottom: 170px;
-  left: 1px;
-	background color: #ffffff;
-	border: 4px solid #c2e1f5;
-  opacity: 0;
-  background-color: white;
-}
-.arrow_boxT:after, .arrow_boxT:before {
-	top: 100%;
-	left: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-}
-.arrow_boxT:after {
-	border-color: rgba(255, 255, 255, 0);
-	border-top-color: #ffffff;
-	border-width: 10px;
-	margin-left: -10px;
-}
-.arrow_boxT:before {
-	border-color: rgba(194, 225, 245, 0);
-	border-top-color: #c2e1f5;
-	border-width: 16px;
-	margin-left: -16px;
-}
-button:hover .arrow_boxT {
-  opacity: 1;
+.TSizes:hover {
+    transition: transform 1s;
+    transform: scale(1.1);
 }
 .T_3 {
   position: relative;
-  left: 11px;
+  left: 13px; bottom: 155px;
   display: flex;
 }
+.T_3:hover {
+    transition: transform 1s;
+    transform: scale(1.1);
+}
 .TSizes {
-  color: lightblue;
+  color: $main-color;
   width: 9px;
   position: relative;
-  right: 18px;
-  top: 8px
+  right: 19px; top: 10px;
+  font-size: 8px;
 }
 .tBox {
 width: 362px;
@@ -438,13 +372,116 @@ padding-top: 50px;
 }
 .innerTBox {
   text-align: center;
-  color: lightblue;
+  color: $main-color;
   width: 362px;
 }
 h3 {
-  color: #106db3;
+  color: $h3-color;
   font-size: 25px;
   margin-left: 0;
   margin-top: 0;
   margin-right: 0;
 }
+.logoBorder {
+  border-top: 2px solid $main-color;
+  border-left: 2px solid $main-color;
+  border-right: 2px solid $main-color;
+  width: 34px;
+  position: relative;
+  right: 4px;
+  opacity: 0;
+}
+button:hover .logoBorder {
+  opacity: 1;
+}
+
+/* Start of Tablet Resize */
+@media screen and (max-width : 60rem) {
+body {
+  flex-direction: column;
+}
+h3{
+  color: $h3-color;
+  margin: 0;
+  padding-bottom: 10px;
+}
+#containerMain {
+  width: 100%;
+}
+.ShirtBox1 {
+  border: 2px solid $main-color;
+  width: 750px;
+  height: 355px;
+}
+.ShirtBox2 {
+  border: 2px solid $main-color;
+  width: 750px;
+  height: 355px;
+}
+.ShirtBox3 {
+  border: 2px solid $main-color;
+  width: 750px;
+  height: 355px;
+}
+.Nav1container {
+  height: 0;
+}
+.menu1 {
+  height: 55px;
+  flex-direction: column;
+  position: relative;
+  left: 681px; bottom: 454px;
+}
+section {
+height: 80px;
+}
+.arrow1 {
+  width: 70px;
+  height: 72px;
+}
+.heart1 {
+  width: 70px;
+  height: 72px;
+}
+.XL1 {
+  width: 70px;
+  height: 72px;
+}
+.BlueBox1 {
+  width: 70px;
+  height: 72px;
+}
+.Cart1 {
+  width: 70px;
+  height: 72px;
+}
+.tBox {
+  margin: 0;
+}
+.tBox {
+width: 362px;
+height: 50px;
+position: relative;
+bottom: 300px; left: 300px;
+}
+.blueShirt {
+  padding: 0;
+}
+ul {
+  display: flex;
+}
+.T_3 {
+  position: relative;
+  top: -28px; left: -155px;
+}
+.TSizes {
+}
+.ColorBox1 {
+  display: flex
+}
+.colorBoxHead {
+  position: relative;
+  top: 125px; right: 100px;
+}
+}
+/* End of Tablet Resize */
